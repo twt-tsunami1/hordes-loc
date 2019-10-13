@@ -21,7 +21,8 @@ export default {
     hi: 'खोजे',
     da: 'Søg',
     sv: 'Sök',
-    zh: '搜索'
+    zh: '搜索',
+    hu: 'Keresés'
   },
 
   filtermine: {
@@ -45,7 +46,8 @@ export default {
     hi: 'मेरी वस्तुएं',
     da: 'Kun mine genstand',
     sv: 'Endast mina föremål',
-    zh: '只要我的装备'
+    zh: '只要我的装备',
+    hu: 'Csak az én tárgyaim'
   },
 
   buy: {
@@ -69,7 +71,8 @@ export default {
     hi: 'वस्तु खरीदे',
     da: 'Køb Genstand',
     sv: 'Köp Föremål',
-    zh: '买装备'
+    zh: '买装备',
+    hu: 'Vásárlás'
   },
 
   post: {
@@ -93,7 +96,8 @@ export default {
     cs: 'Poslat Předmět',
     ja: 'オブジェクトを送信',
     da: 'Send Genstand',
-    ro: 'Postează Obiectul'
+    ro: 'Postează Obiectul',
+    hu: 'Tárgy kirakása'
   },
 
   delist: {
@@ -116,7 +120,8 @@ export default {
     ro: 'Scoate Obiectul',
     hi: 'बाज़ार से हटाएं',
     da: 'Fjern Genstand fra liste',
-    sv: 'Delista-Objektet'
+    sv: 'Delista-Objektet',
+    hu: 'Tárgy visszavétele'
   },
 
   // Include the space and punctuation
@@ -141,7 +146,8 @@ export default {
     hi: 'कीमत: ',
     da: 'Pris: ',
     sv: 'Pris: ',
-    zh: '价格: '
+    zh: '价格: ',
+    hu: 'Ár: '
   },
 
   // Include the space and punctuation
@@ -166,7 +172,8 @@ export default {
     hi: 'कीमत: ',
     da: 'Skat: ',
     sv: 'Avgift: ',
-    zh: '费用: '
+    zh: '费用: ',
+    hu: 'Költség: '
   },
 
   dragitem: {
@@ -189,7 +196,8 @@ export default {
     ro: 'Pune obiectul la locul lui',
     hi: 'वस्तु खीच कर खांचे में डाल दे',
     da: 'Træk genstand i slot',
-    sv: 'Dra objektet till platsen'
+    sv: 'Dra objektet till platsen',
+    hu: 'Húzd a tárgyat az ablakba'
   },
 
   auctionpost: {
@@ -213,53 +221,58 @@ export default {
     cs: 'Zveřejnili jste $1 na prodej',
     ja: 'あなたは販売のために $1 を投稿しました',
     ro: 'Ai postat $1 pentru vânzare',
-    da: 'Du har indsendt $1 til salg'
+    da: 'Du har indsendt $1 til salg',
+    hu: 'Eladásra bocsátottad: $1'
   },
 
+  // Do not translate "Stash".
   auctioncancel: {
-    en: 'Item delisted and sent to stash',
-    ru: 'Предмет снят с продажи и отправлен в ваш сундук',
-    nl: 'Item verwijderd en naar de stash verzonden',
-    de: 'Verkauf abgebrochen und Item in den Speicher geschickt',
-    pt: 'Item retirado do leilão e enviado para o baú',
-    it: 'Articolo cancellato e inviato a magazzino',
-    fr: 'Objet retiré des enchères et envoyé dans la planque',
-    pl: 'Przedmiot usunięty z wykazu i wysłany do przechowania.',
-    es: 'Artículo retirado de la lista y enviado a su alijo',
-    tl: 'Inalis ang item at ipinadala sa itago',
+    en: 'Item delisted and sent to Stash',
+    ru: 'Предмет снят с продажи и отправлен в ваш Stash',
+    nl: 'Item verwijderd en naar de Stash verzonden',
+    de: 'Verkauf abgebrochen und Item in den Stash geschickt',
+    pt: 'Item retirado do leilão e enviado para o Stash',
+    it: 'Articolo cancellato e inviato a Stash',
+    fr: 'Objet retiré des enchères et envoyé dans la Stash',
+    pl: 'Przedmiot usunięty z wykazu i wysłany do Stash.',
+    es: 'Artículo retirado de la lista y enviado a su Stash',
+    tl: 'Inalis ang item at ipinadala sa Stash',
     el: 'Το στοιχείο αποσυντεθεί και αποστέλλεται στο στήθος',
-    bg: 'Предмет се изтегля от продажба и се поставя в гърдите',
-    cs: 'Položka byla odstraněna a odeslána',
-    ht: 'Atik de-yo ki nan lis ak voye nan stash',
+    bg: 'Предмет се изтегля от продажба и се поставя в Stash',
+    cs: 'Položka byla odstraněna a odeslána na Stazh',
+    ht: 'Atik de-yo ki nan lis ak voye nan Stash',
     ko: '상장 폐지 된 물품',
     ja: '上場廃止されたアイテム',
-    ro: 'Obiect delistat și pus la păstrare',
+    ro: 'Obiect delistat și pus la Stash',
     hi: 'वस्तु को बाज़ार से हटाकर आपके स्टैश में भेज दिया गया है',
-    da: 'Genstand afnoteret og sendt til stash',
-    sv: 'Föremål listades och skickades till stash'
+    da: 'Genstand afnoteret og sendt til Stash',
+    sv: 'Föremål listades och skickades till Stash',
+    hu: 'A tárgyat nem vásárolták meg, és a Stash fiókodba került.'
   },
 
+  // Do not translate "Stash".
   auctionbuy: {
-    en: 'Item purchased for $1 coins and sent to your stash',
-    ru: 'Предмет, купленный за $1, отправлен в ваш сундук',
-    es: 'Artículo comprado por $1 monedas y enviado a su alijo',
-    fr: 'Article acheté pour $1 pièces et envoyé dans votre planque',
-    de: 'Artikel, der für $1 Münzen gekauft und an Ihr Versteck geschickt wurde',
-    pt: 'Item comprado por $1 moedas e enviado para o seu baú',
-    nl: 'Item gekocht voor $1 munten en verzonden naar uw ztash',
-    pl: 'Przedmiot zakupiony za $1 monet i wysłany do Twojego magazynu',
-    sv: 'Produkt som köpts för $1 mynt och skickas till din stash',
-    ht: 'Atik achte pou pyès monnen $1 epi li voye bay stash ou',
-    it: 'Oggetto acquistato per $1 monete e inviato al tuo stash',
-    tl: 'Ang item na binili para sa $1 barya at ipinadala sa iyong stash',
-    el: 'Στοιχείο που αγοράσατε για $1 νομίσματα και απεστάλητε στο στήθος σας',
-    bg: 'Позиция, закупена за $1 монети и изпратена до вашия stash',
-    cs: 'Zboží zakoupené za $1 mincí a zaslané do vašeho stash',
-    ja: '$1 枚のコインで購入し、あなたの隠し場所に送られるアイテム',
-    ko: '$1 동전으로 구입하여 은닉 한 물품',
-    ro: 'Obiect cumpărat pentru $1 monede și trimis în inventarul tău',
-    hi: 'अपने $1 सिक्कों में वस्तु खरीद ली है और उसे आपके स्टैश में भेज दिया गया है',
-    da: 'Vare købt til $1 mønter og sendt til din stash'
+    en: 'Item purchased for $g$1 and sent to your Stash',
+    ru: 'Предмет, купленный за $g$1 и отправлен в ваш Stash',
+    es: 'Artículo comprado por $g$1 y enviado a su Stash',
+    fr: 'Article acheté pour $g$1 et envoyé dans votre Stash',
+    de: 'Item, der für $g$1 gekauft und an Stash geschickt wurde',
+    pt: 'Item comprado por $g$1 e enviado para o seu Stash',
+    nl: 'Item gekocht voor $g$1 en verzonden naar uw Stash',
+    pl: 'Przedmiot zakupiony za $g$1 i wysłany do twojego Stash',
+    sv: 'Produkt som köpts för $g$1 och skickas till din Stash',
+    ht: 'Atik achte pou $g$1 epi li voye bay Stash ou',
+    it: 'Oggetto acquistato per $g$1 e inviato al tuo Stash',
+    tl: 'Ang item na binili para sa $g$1 at ipinadala sa iyong Stash',
+    el: 'Στοιχείο που αγοράσατε για $g$1 νομίσματα και απεστάλητε στο στήθος σας',
+    bg: 'Позиция, закупена за $g$1 и изпратена до вашия Stash',
+    cs: 'Zboží zakoupené za $g$1 a zaslané do vašeho Stash',
+    ja: '$g$1 枚のコインで購入し、あなたの隠し場所に送られるアイテム',
+    ko: '$g$1 동전으로 구입하여 은닉 한 물품',
+    ro: 'Obiect cumpărat pentru $g$1 și trimis în Stash tău',
+    hi: 'अपने $g$1 सिक्कों में वस्तु खरीद ली है और उसे आपके स्टैश में भेज दिया गया है',
+    da: 'Vare købt til $g$1 og sendt til din Stash',
+    hu: 'A tárgyat megvásárolták $g$1 áron, ami a Stash fiókodba került.'
   },
 
   sell: {
@@ -282,6 +295,7 @@ export default {
     ht: 'Ou te vann $1 pou $2',
     ko: '$1 에 $1 를 판매했습니다',
     sv: 'Du har sålt $1 för $2',
-    da: 'Du har solgt $1 til $2'
+    da: 'Du har solgt $1 til $2',
+    hu: 'Eladtad: $1, $2 áron.'
   }
 }

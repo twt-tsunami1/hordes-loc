@@ -26,29 +26,12 @@ export default {
     },
 
     choices: [{
-      en: 'Yes, of course.',
-      ru: 'Да, конечно.',
-      es: 'Sí, por supuesto.',
-      de: 'Ja, natürlich.',
-      fr: 'Oui, bien sûr.',
-      it: 'Sì, naturalmente.',
-      ht: 'Wi nan kou.',
-      pl: 'Tak, oczywiście.',
-      nl: 'Ja, natuurlijk.',
-      pt: 'Sim, claro.',
-      cs: 'Ano, samozřejmě.',
-      ja: 'はい、もちろん。',
-      hi: 'हां बिल्कुल।',
-      sv: 'Ja självklart.',
-      ko: '예, 물론입니다.',
-      bg: 'Да разбира се.',
-      el: 'Ναι φυσικά.',
-      ro: 'Da, desigur.',
-      tl: 'Oo naman.',
-      da: 'Ja selvfølgelig.',
-      zh: '是，當然。',
-      tr: 'Elbette.',
-      hu: 'Persze, csak természetesen.'
+      en: 'Show me your wares.',
+      ru: 'Покажи мне свои товары.',
+      hu: 'Mutasd az áruidat',
+      pt: 'Mostra-me os teus produtos.',
+      fr: 'Montrez moi vos articles',
+      nl: 'Laat mij uw waren zien'
     }]
   }],
 
@@ -70,7 +53,7 @@ export default {
     ja: 'あなたの商品を売る。',
     el: 'Πουλήστε τα στοιχεία σας.',
     pt: 'Venda os seus itens.',
-    nl: 'Verkoop je items.',
+    nl: 'Verkoop je waren.',
     da: 'Sælg dine varer.',
     ro: 'Vinde-ți obiectele.',
     zh: '賣出你的物品。',
@@ -152,6 +135,6 @@ export default {
     da: 'Er du interesseret i noget? Klik på en genstand for at købe den.',
     zh: '有感興趣的東西嗎？点击商品即可購買。',
     tr: 'İlginizi çeken bir şeyler var mı? Bir eşyayı almak isterseniz üstüne tıklayın.',
-    hu: 'Találtál valamit, amit érdekesnek találsz? Kattints egy tárgyra hogy megvásárold.'
+    hu: 'Látsz valamit, amit érdekesnek találsz? Kattints egy tárgyra hogy megvásárold.'
   }
 }

@@ -22,7 +22,8 @@ export default {
     tl: 'Mga setting',
     ro: 'Setări',
     da: 'Indstillinger',
-    zh: '设置'
+    zh: '设置',
+    hu: 'Beállítások'
   },
 
   // ---- Controls
@@ -48,19 +49,26 @@ export default {
     tl: 'Mga kontrol',
     ro: 'Controale',
     da: 'Controls',
-    zh: '控制'
+    zh: '控制',
+    hu: 'Irányítás'
   },
 
   keybindings: {
     en: 'Key bindings',
     ru: 'Привязки клавиш',
-    pt: 'Combinações de teclas'
+    pt: 'Combinações de teclas',
+    fr: 'Assignation des touches',
+    nl: 'Knop verbindingen',
+    hu: 'Billentyűparancsok'
   },
 
   pointerlock: {
     en: 'Hide mouse during rotation',
     ru: 'Скрыть мышь во время вращения',
-    pt: 'Ocultar o rato durante a rotação.'
+    pt: 'Ocultar o rato durante a rotação.',
+    fr: 'Cacher la souris pendant les rotations',
+    nl: 'Verstop rechter muis knop tijdens rotatie',
+    hu: 'Egérmutató elrejtése forgáskor'
   },
 
   lockedcamera: {
@@ -85,7 +93,8 @@ export default {
     tl: 'Naka-lock na camera',
     ro: 'Blochează camera',
     da: 'Låst kamera',
-    zh: '锁定相机'
+    zh: '锁定相机',
+    hu: 'Lezárt kamera'
   },
 
   // ---- Graphics
@@ -111,7 +120,8 @@ export default {
     tl: 'Grapika',
     ro: 'Grafică',
     da: 'Grafik',
-    zh: '图像'
+    zh: '图像',
+    hu: 'Grafika'
   },
 
   viewrange: {
@@ -136,7 +146,8 @@ export default {
     ja: '表示範囲',
     tl: 'Tingnan ang saklaw',
     da: 'Omfang af synet',
-    zh: '远景范围'
+    zh: '远景范围',
+    hu: 'Látótávolság'
   },
 
   resolution: {
@@ -146,7 +157,7 @@ export default {
     es: 'Resolución',
     de: 'Auflösung',
     fr: 'Résolution',
-    nl: 'Resolution',
+    nl: 'Resolutie',
     tr: 'Çözünürlük',
     pt: 'Resolução',
     pl: 'Rozdzielczość',
@@ -161,7 +172,8 @@ export default {
     tl: 'Resolution',
     ro: 'Rezoluție',
     da: 'Løsning',
-    zh: '解析度'
+    zh: '解析度',
+    hu: 'Felbontás'
   },
 
   postprocessing: {
@@ -170,7 +182,9 @@ export default {
     ru: 'Постобработка',
     tr: 'Detaylandırma',
     fr: 'Post-traitement',
-    pt: 'Pós-processamento.'
+    pt: 'Pós-processamento.',
+    nl: 'Nawerking',
+    hu: 'Elő-tömörítés'
   },
 
   skilleffects: {
@@ -195,45 +209,60 @@ export default {
     tl: 'Mga epekto sa kasanayan',
     ro: 'Efectele Abilităților',
     da: 'Færdighedseffekter',
-    zh: '技能影响'
+    zh: '技能影响',
+    hu: 'Képesség effektusok'
   },
 
   shadows: {
     en: 'Shadows',
     ru: 'Тени',
     fr: 'Ombres',
-    pt: 'Sombras'
+    pt: 'Sombras',
+    nl: 'Schaduwen',
+    hu: 'Árnyékok'
   },
 
   ssao: {
     en: 'Ambient Occlusion',
+    ru: 'Окружающая Окклюзия',
     fr: 'Occlusion Ambiante',
-    pt: 'Oclusão Ambiental'
+    pt: 'Oclusão Ambiental',
+    nl: 'Omgevingsocclusie',
+    hu: 'Környezet okklúzió'
   },
 
   grass: {
     en: 'Grass',
     ru: 'Трава',
     fr: 'Herbe',
-    pt: 'Grama'
+    pt: 'Grama',
+    nl: 'Gras',
+    hu: 'Fű'
   },
 
   clouds: {
     en: 'Clouds',
     ru: 'Облака',
     fr: 'Nuages',
-    pt: 'Nuvens'
+    pt: 'Nuvens',
+    nl: 'Wolken',
+    hu: 'Felhők'
   },
 
   particles: {
     en: 'Particles',
     ru: 'Частицы',
     fr: 'Particules',
-    pt: 'Partículas'
+    pt: 'Partículas',
+    nl: 'Deeltjes',
+    hu: 'Effekt-részecskék'
   },
 
   detailprops: {
-    en: 'Detail props'
+    en: 'Detail props',
+    ru: 'Детальные пропи',
+    nl: 'Detail Voorwerpen',
+    hu: 'Részletes objektumok'
   },
 
   // ---- Audio
@@ -259,14 +288,15 @@ export default {
     ja: 'オーディオ',
     tl: 'Audio',
     da: 'Lyd',
-    zh: '音频'
+    zh: '音频',
+    hu: 'Hang'
   },
 
   sfxvolume: {
     en: 'SFX Volume',
     ru: 'Громкость Эффектов',
     de: 'SFX Lautstärke',
-    nl: 'SFX Harder',
+    nl: 'SFX Volume',
     pt: 'Volume de SFX',
     pl: 'Objętość SFX',
     it: 'Volume SFX',
@@ -283,7 +313,8 @@ export default {
     ko: 'SFX 볼륨',
     ja: 'SFXボリューム',
     tl: 'Dami ng SFX',
-    da: 'Volumen af SFX'
+    da: 'Volumen af SFX',
+    hu: 'SFX-hangerő '
   },
 
   // ---- Chat
@@ -294,7 +325,7 @@ export default {
     es: 'Chat',
     de: 'Chat',
     fr: 'Chat',
-    nl: 'praten',
+    nl: 'Chat',
     tr: 'sohbet',
     pt: 'Chat',
     pl: 'pogawędka',
@@ -308,18 +339,24 @@ export default {
     el: 'κουβέντα',
     tl: 'Chat',
     ro: 'Chat',
-    da: 'Chat'
+    da: 'Chat',
+    hu: 'Cset'
   },
 
   chatbubbles: {
     en: 'Show chat bubbles',
     ru: 'Показавать чат пузеры',
     fr: 'Afficher les bulles de chat',
-    pt: 'Mostrar bolhas de chat'
+    pt: 'Mostrar bolhas de chat',
+    nl: 'Laat chat bubbels zien',
+    hu: 'Csetbuborékok mutatása'
   },
 
   combatlog: {
-    en: 'Combat Log'
+    en: 'Combat Log',
+    ru: 'Боевой лог',
+    nl: 'Gevechts log',
+    hu: 'Harci kisnapló'
   },
 
   // ---- User interface
@@ -344,7 +381,8 @@ export default {
     ko: '인터페이스',
     ja: 'インタフェース',
     tl: 'Interface',
-    da: 'Grænseflade'
+    da: 'Grænseflade',
+    hu: 'Felület'
   },
 
   language: {
@@ -368,7 +406,8 @@ export default {
     ko: '언어',
     ja: '言語',
     tl: 'Wika',
-    da: 'Sprog'
+    da: 'Sprog',
+    hu: 'Nyelv'
   },
 
   invwidth: {
@@ -391,7 +430,8 @@ export default {
     da: 'Lagerbredde',
     ko: '인벤토리 너비',
     ht: 'Lajè Envantè',
-    ja: '在庫の幅'
+    ja: '在庫の幅',
+    hu: 'Hátizsák szélesség'
   },
 
   tutorial: {
@@ -415,7 +455,8 @@ export default {
     el: 'φροντιστήριο',
     tl: 'Pagtuturo',
     ro: 'Tutorial',
-    da: 'Tutorial'
+    da: 'Tutorial',
+    hu: 'Bemutató'
   },
 
   resettutorial: {
@@ -425,7 +466,7 @@ export default {
     es: 'Reiniciar tutorial',
     de: 'Tutorial zurücksetzen',
     fr: 'Réinitialiser le tutoriel',
-    nl: 'Gereset les',
+    nl: 'Reset handleiding',
     tr: 'Öğreticiyi sıfırla',
     pt: 'Recomeçar o tutorial',
     pl: 'resetowanie samouczka',
@@ -439,7 +480,8 @@ export default {
     el: 'επαναφορά φροντιστήριο',
     tl: 'i-reset ang tutorial',
     ro: 'Resetează tutorialul',
-    da: 'Nulstil tutorial'
+    da: 'Nulstil tutorial',
+    hu: 'Bemutató újrakezdése'
   },
 
   disabletutorial: {
@@ -447,6 +489,27 @@ export default {
     ru: 'Отключить обучения',
     tr: 'Öğreticiyi kapat',
     fr: 'Désactiver le tutoriel',
-    pt: 'Desativar o Tutorial'
+    pt: 'Desativar o tutorial',
+    nl: 'Handleiding uitschakelen',
+    hu: 'Bemutató elrejtése'
+  },
+
+  // ---- map
+  maplowqual: {
+    en: 'Low quality mode',
+    ru: 'Режим низкого качества',
+    hu: 'Alacsony minőségű mód',
+    pt: 'Modo de qualidade baixa',
+    fr: 'Mode basse qualité',
+    nl: 'Lage kwaliteit modus'
+  },
+
+  mapshowmonsters: {
+    en: 'Show monsters',
+    ru: 'Показывать монстров',
+    hu: 'Szörnyek mutatása',
+    pt: 'Mostrar monstros',
+    fr: 'Afficher les monstres',
+    nl: 'Laat monsters zien'
   }
 }

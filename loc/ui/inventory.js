@@ -22,7 +22,8 @@ export default {
     sv: 'Inventarium',
     ro: 'inventar',
     da: 'Opbevaring',
-    zh: '库存'
+    zh: '库存',
+    hu: 'Hátizsák'
   },
 
   pick: {
@@ -46,7 +47,8 @@ export default {
     ko: '당신은 $1 를 선택했습니다',
     sv: 'Du har plockat upp $1.',
     da: 'Du har hentet $1.',
-    zh: '你捡到了$1。'
+    zh: '你捡到了$1。',
+    hu: 'Fölvetted: $1'
   },
 
   throw: {
@@ -71,7 +73,8 @@ export default {
     cs: 'Odhodil jsi $1.',
     ja: 'あなたは捨てました $1。',
     da: 'Du smed $1 væk.',
-    zh: '你丢了$1。'
+    zh: '你丢了$1。',
+    hu: 'Eldobtad: $1'
   },
 
   full: {
@@ -95,7 +98,8 @@ export default {
     ko: '인벤토리가 가득 찼습니다',
     sv: 'Din inventering är full.',
     da: 'Dit lager er fuldt.',
-    zh: '你的库存满了。'
+    zh: '你的库存满了。',
+    hu: 'A hátizsákod tele van.'
   },
 
   sell: { // TODO: these are likely broken in many places
@@ -119,7 +123,8 @@ export default {
     ko: '$1 에',
     sv: 'Du har sålt $1.',
     da: 'Du har solgt $1.',
-    zh: '你卖了 $1。'
+    zh: '你卖了 $1。',
+    hu: 'Eladtad: $1'
   },
 
   receive: {
@@ -143,7 +148,8 @@ export default {
     el: 'Έχετε λάβει $1.',
     bg: 'Получихте $1.',
     ro: 'Ați primit $1.',
-    zh: '你收到 $1。'
+    zh: '你收到 $1。',
+    hu: 'Kaptál: $1'
   },
 
   drop: {
@@ -168,7 +174,8 @@ export default {
     sv: 'Släpp objektet',
     ro: 'Aruncă obiectul',
     da: 'Slet genstand',
-    zh: '丢装备'
+    zh: '丢装备',
+    hu: 'Tárgy eldobása'
   },
 
   equip: {
@@ -192,7 +199,8 @@ export default {
     fr: 'Equipez l\'item',
     nl: 'Rust uw item uit',
     ro: 'Echipează obiectul',
-    zh: '上装备'
+    zh: '上装备',
+    hu: 'Felfegyverkezés'
   },
 
   use: {
@@ -217,7 +225,8 @@ export default {
     cs: 'Použijte přidmet',
     ja: 'アイテムを使う',
     da: 'Brug genstand',
-    zh: '用物品'
+    zh: '用物品',
+    hu: 'Használat'
   },
 
   splithalf: {
@@ -225,7 +234,8 @@ export default {
     ru: 'Разделить пополам',
     bg: 'Разполови',
     fr: 'Partager en deux',
-    pt: 'Dividir ao meio'
+    pt: 'Dividir ao meio',
+    hu: 'Kettéosztás'
   },
 
   splitone: {
@@ -233,56 +243,59 @@ export default {
     ru: 'Отделить один',
     bg: 'Вземи един',
     fr: 'Retirer un item',
-    pt: 'Retirar um'
+    pt: 'Retirar um',
+    hu: 'Egy elvétele'
   },
 
   spend: {
-    en: 'You have spent $1 coins.',
-    ru: 'Вы потратили $1 монет.',
-    es: 'Ha gastado $1 monedas.',
-    fr: 'Vous avez dépensé $1 pièces.',
-    de: 'Du hast $1 Münzen ausgegeben.',
-    pt: 'Você gastou $1 moedas.',
-    ko: '$1 동전을 보냈습니다',
-    nl: 'U heeft $1 munten uitgegeven.',
-    pl: 'Wydałeś $1 monety.',
-    sv: 'Du har spenderat $1 mynt.',
-    tr: '$1 madeni para harcadınız.',
-    ht: 'Ou te pase $1 pyès monnen.',
-    it: 'Hai speso $1 monete.',
-    hi: 'आपने $1 सिक्के खर्च कर दिए हैं',
-    tl: 'Ginugol mo ang $1 barya.',
-    el: 'Έχετε ξοδέψει $1 νομίσματα.',
-    bg: 'Прекарали сте $1 монети.',
-    cs: 'Strávili jste $1 mincí.',
-    ja: 'あなたは$1コインを使った。',
-    ro: 'Ai cheltuit $1 de monede.',
-    da: 'Du har brugt $1 mønter.',
-    zh: '你花了$1。'
+    en: 'You have spent $g$1.',
+    ru: 'Вы потратили $g$1.',
+    es: 'Ha gastado $g$1.',
+    fr: 'Vous avez dépensé $g$1.',
+    de: 'Du hast $g$1 ausgegeben.',
+    pt: 'Você gastou $g$1.',
+    ko: '$g$1 동전을 보냈습니다',
+    nl: 'U heeft $g$1 uitgegeven.',
+    pl: 'Wydałeś $g$1.',
+    sv: 'Du har spenderat $g$1.',
+    tr: '$g$1 para harcadınız.',
+    ht: 'Ou te pase $g$1.',
+    it: 'Hai speso $g$1.',
+    hi: 'आपने $g$1 सिक्के खर्च कर दिए हैं',
+    tl: 'Ginugol mo ang $g$1.',
+    el: 'Έχετε ξοδέψει $g$1.',
+    bg: 'Прекарали сте $g$1.',
+    cs: 'Strávili jste $g$1.',
+    ja: 'あなたは$g$1コインを使った。',
+    ro: 'Ai cheltuit $g$1.',
+    da: 'Du har brugt $g$1.',
+    zh: '你花了$g$1。',
+    hu: 'Elköltöttél $g$1'
   },
 
   death: {
-    en: 'You died and lost $1 coins.',
-    ru: 'Вы умерли и потеряли $1 монет.',
-    es: 'Moriste y perdiste $1 monedas.',
-    fr: 'Vous êtes mort et avez perdu $1 pièces.',
-    de: 'Du bist gestorben und hast $1 Münzen verloren.',
-    pt: 'Você morreu e perdeu $1 moedas.',
-    ko: '$1 개의 동전을 잃고 잃어 버렸습니다',
-    nl: 'Je stierf en verloor $1 munten.',
-    pl: 'Zginąłeś i straciłeś $1 monet.',
-    sv: 'Du dog och tappade $1 mynt.',
-    tr: 'Öldün ve $1 madeni para kaybettin.',
-    ht: 'Ou te mouri ak pèdi $1 pyès monnen.',
-    it: 'Sei morto e perso $1 monete.',
-    hi: 'आप मारे गए और $1 सिक्के खो दिए',
-    tl: 'Namatay ka at nawala ang $1 barya.',
-    el: 'Πέθανε και έχασες $1 νομίσματα.',
-    bg: 'Ти умря и загуби $1 монети.',
-    cs: 'Zemřeli jste a ztratili jste $1 mincí.',
-    ja: 'あなたは死んで $1 コインを失った。',
-    ro: 'Ai murit și ai pierdut $1 de monede.',
-    da: 'Du døde og mistede $1 mønter.',
-    zh: '你死了，掉了 $1。'
+    en: 'You died and lost $g$1.',
+    ru: 'Вы умерли и потеряли $g$1.',
+    es: 'Moriste y perdiste $g$1.',
+    fr: 'Vous êtes mort et avez perdu $g$1.',
+    de: 'Du bist gestorben und hast $g$1 verloren.',
+    pt: 'Você morreu e perdeu $g$1.',
+    ko: '$g$1 개의 동전을 잃고 잃어 버렸습니다',
+    nl: 'Je stierf en verloor $g$1.',
+    pl: 'Zginąłeś i straciłeś $g$1.',
+    sv: 'Du dog och tappade $g$1.',
+    tr: 'Öldün ve $g$1 para kaybettin.',
+    ht: 'Ou te mouri ak pèdi $g$1.',
+    it: 'Sei morto e perso $g$1.',
+    hi: 'आप मारे गए और $g$1 सिक्के खो दिए',
+    tl: 'Namatay ka at nawala ang $g$1.',
+    el: 'Πέθανε και έχασες $g$1 νομίσματα.',
+    bg: 'Ти умря и загуби $g$1.',
+    cs: 'Zemřeli jste a ztratili jste $g$1.',
+    ja: 'あなたは死んで $g$1 コインを失った。',
+    ro: 'Ai murit și ai pierdut $g$1.',
+    da: 'Du døde og mistede $g$1.',
+    zh: '你死了，掉了 $g$1。',
+    hu: 'Meghaltál és elvesztetted: $g$1'
   }
 }
